@@ -1,0 +1,23 @@
+body{
+background-color: aqua;
+}
+
+h1{
+color: rgb(255, 251, 0);
+font-family: monospace;    
+font-size:xx-large ;
+}
+
+h2{
+    color: rgb(0, 255, 34);
+    font-family: monospace;    
+    font-size:x-large;
+}h3{
+        color: rgb(255, 28, 198);
+        font-family: monospace;    
+        font-size:  larger;
+        }
+p{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
