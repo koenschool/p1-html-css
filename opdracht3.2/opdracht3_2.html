@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <h1>Boekings formulier</h1>
+ <form action="" autocomplete="on">
+        <label for="name">voornaam</label><br>
+        <input type="text" name="voornaam" onkeydown="return /[a-zA-Z]/i.test(event.key)" required><br>
+    <label for="name">achternaam</label><br>
+    <input type="text" name="achternaam" onkeydown="return /[a-zA-Z]/i.test(event.key)" required><br>
+    gender<br>
+    <input type="radio" id="man" name="gender" value="man" checked="checked" required>
+    <label for="man">man</label><br>
+    <input type="radio" id="vrouw" name="gender" value="vrouw" required>
+    <label for="vrouw">vrouw</label><br>
+    <label for="straatenhuisnummer">straat en huisnummer</label><br>
+    <input type="text" id="straatenhuisnummer" name="straatenhuisnummer" required><br>
+    <label for="pin">postcode</label><br>
+    <input type="text" id="postcode" name="postcode" maxlength="6" size="3"required><br>
+    <label for="stad">stad</label><br>
+    <input type="text" id="stad" name="stad" required><br>
+    <label for="land">land</label><br>
+    <input type="text" id="land" name="land" required><br>
+    <label for="bsnnummer">bsn nummer</label><br>
+    <input type="text" id="bsnnummer" name="bsnnummer" maxlength="9" size="5"required><br>
+    vakantieland<br>
+    <input type="radio" id="frankrijk" name="land" value="frankrijk" required>
+    <label for="frankrijk">frankrijk</label><br>
+    <input type="radio" id="duitsland" name="land" value="duitsland" required>
+    <label for="duitsland">duitsland</label><br>
+    <input type="radio" id="belgië" name="land" value="belgië" required>
+    <label for="belgië">belgië</label><br>
+        <label for="datemvertrek">datum van vertrek</label><br>
+        <input type="date" id="datumvertrek" name="datemvertrek" min="2023-15-09" required><br>
+        <label for="datumterugkomst">datum van terug komst</label><br>
+        <input type="date" id="datumterugkomst" name="datumterugkomst" min="2023-15-09" required><br>
+    <label for="points">aantal reisgenoten (max 4 mensen)</label><br>
+    <input type="number" id="Aantal reisgenoten" name="Aantal reisgenoten" min="1" max="4" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" autocomplete="off" required><br>
+        <label for="wachtwoord">wachtwoord</label><br>
+        <input type="password" name="wachtwoord" required><br><br>
+    <input type="submit" value="boek nu">
+  </form>
+
+</body>
+</html>
