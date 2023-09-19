@@ -1,0 +1,22 @@
+body{
+    background-color:darkgray ;
+    }
+    
+    h1{
+    color:darkslategray;
+    font-family: monospace;    
+    }
+    
+    h2{
+    color: darkslategray;
+    font-family: monospace;    
+    }
+    
+    h3{
+            color: darkslategray;
+            font-family: monospace;    
+            }
+    p{
+        color: darkslategray;
+        font-family: monosace;
+    }

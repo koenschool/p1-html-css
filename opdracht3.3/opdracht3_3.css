@@ -1,0 +1,23 @@
+body{
+    background-color:dimgray;
+    }
+
+th{
+    color: darkorange;
+}
+
+h1{
+    color:darkorange;
+}
+
+table{
+    color:brown;
+}
+
+p{
+    color:aqua;
+}
+
+th.one{
+    color:white;
+}
