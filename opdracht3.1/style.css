@@ -16,6 +16,7 @@ body {
 }
 
 nav {
+  position:fixed;
   display: flex;
   width: 100%;
   padding: 2rem;
@@ -47,5 +48,29 @@ nav a {
 }
 nav img {
   width: 5vw;
+  position:fixed;
 }
 
+nav ul{
+  position:fixed;
+  text-align: center;
+  left: 5%;
+  bottom: 10;
+  width: 100%;
+}
+nav li{
+  text-align: center;
+  left: 100%;
+  bottom: 10;
+  width: 100%;
+}
+
+.footer {
+position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(17, 0, 255);
+  color: rgb(0, 255, 170);
+  text-align: center;
+}
