@@ -1,0 +1,33 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .flex-container > h1  {
+    background-color: green;
+    width: 200px;
+    height:  200px;
+    max-width: 1200px;
+    margin: 75px;
+  }
+  .flex-container > h2 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    max-width: 1200px;
+    margin: 75px;
+  }
+  .flex-container > h3  {
+    background-color: black;
+    width: 200px;
+    height:  200px;
+    max-width: 1200px;
+    margin: 75px;
+  }
+  .flex-container > h4 {
+    background-color: blue;
+    width: 200px;
+    height:  200px;
+    max-width: 1200px;
+    margin: 75px;
+  }
